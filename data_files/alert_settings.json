@@ -1,0 +1,63 @@
+{
+    "name": "API Alert Profile",
+    "conditions": [
+        {
+            "metric": "temperature",
+            "threshold": {
+                "temperature": {
+                    "fahrenheit": 70
+                }
+            },
+            "direction": "above",
+            "duration": 1800
+        },
+        {
+            "metric": "temperature",
+            "threshold": {
+                "temperature": {
+                    "fahrenheit": 64
+                }
+            },
+            "direction": "below",
+            "duration": 1800
+        },
+        {
+            "metric": "humidity",
+            "threshold": {
+                "humidity": {
+                    "relativePercentage": 55
+                }
+            },
+            "direction": "above",
+            "duration": 1800
+        },
+        {
+            "metric": "humidity",
+            "threshold": {
+                "humidity": {
+                    "relativePercentage": 40
+                }
+            },
+            "direction": "below",
+            "duration": 1800
+        },
+        {
+            "metric": "water",
+            "threshold": {
+                "water": {
+                    "present": true
+                }
+            }
+        },
+        {
+            "metric": "door",
+            "threshold": {
+                "door": {
+                    "open": true
+                }
+            },
+            "duration": 300
+        }
+    ],
+    "serials": []
+}
