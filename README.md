@@ -33,7 +33,7 @@ API_KEY = ''
 ORG_ID = ''
 ```
 
-4. Fill out datafiles/devices.csv and enter the list of device Serial for the sensors to attach to the Alert Profile
+4. Fill out datafiles/devices.csv and enter the list of device serials for the sensors to attach to the Alert Profile
 
 ```
 Serial
@@ -43,7 +43,7 @@ XXXX-XXXX-XXXX
 XXXX-XXXX-XXXX
 ```
 
-5. Edit alert_settongs.json file to configure the Alert Profile setting to you choice, refer to the [API Documentation](https://developer.cisco.com/meraki/api-v1/create-network-sensor-alerts-profile/) if needed.
+5. Edit data_files/alert_settings.json file to configure the Alert Profile settings to your choice, refer to the [API Documentation](https://developer.cisco.com/meraki/api-v1/create-network-sensor-alerts-profile/) if needed.
 
 ![/IMAGES/alert_settings.png](/IMAGES/alert_settings.png)
 
